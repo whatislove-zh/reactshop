@@ -13,13 +13,14 @@ body {
   font-weight: 300;
 }
 .logo {
+  font-size: 42px;
   font-weight: 600;
   cursor: pointer;
 }
 
 .wrapper {
   width: 1280px;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 .nav {
@@ -52,18 +53,35 @@ header {
   position: relative;
 }
 
-.shop-card {
+.shop-card, .contacts, .timeLimitInfo {
   position: absolute;
   top: 30px;
   right: 0;
   width: 250px;
-  
   background: #fafafa;
-  
   z-index: 1000;
   border-radius: 5px;
   margin-top: 5px;
-  
+}
+.contacts{
+  width: 300px;
+}
+.contacts p{
+  margin: 10px;
+}
+.contacts p a,
+.contacts p span{
+  text-decoration:none;
+  color: #000;
+  font-weight: 600;
+}
+
+.timeLimitInfo p{
+  margin: 10px;
+}
+
+.timeLimitInfo.about{
+  width: 500px;
 }
 
 
@@ -124,7 +142,7 @@ header {
 }
 
 .presentation {
-  margin: 50px 0;
+  margin: 25px 0;
   background: url("./img/bg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
