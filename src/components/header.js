@@ -35,7 +35,7 @@ const showContact = () => {
         </a>
       </p>
       <p>
-        <a href="https://t.me/vladFreelance">
+        <a href="https://t.me/vladFrontEndDev">
           Натисніть щоб написати нам через Telegram
         </a>
       </p>
